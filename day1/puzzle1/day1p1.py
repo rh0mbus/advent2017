@@ -25,5 +25,5 @@ for num in numArr:
 if numArr[-1] == numArr[0]:
     total += numArr[-1]
 
-print(total)
+print(f'This is the total: {total}')
 file.close()
